@@ -52,14 +52,12 @@ function Root() {
 
   return (
     <div className="px-8">
-      <h1 className="text-6xl py-10 dark:text-fg-primary-dark text-fg-primary">
-        Juxtify
-      </h1>
-      <div className="pt-20 gap-[15px] flex flex-col">
+      
+      <div className="pt-5 gap-[15px] flex flex-col">
         <h2 className="text-fg-primary font-semibold font-satoshi tracking-[0.03rem] sm:text-xl dark:text-fg-primary-dark">
           Made For You
         </h2>
-        <div className="flex gap-[11px] overflow-x-scroll">
+        <div className="flex gap-[11px] overflow-x-hidden">
           {spotifyCards.map((card) => (
             <Card {...card} />
           ))}

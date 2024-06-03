@@ -5,8 +5,8 @@ import Search from "../../assets/icons/search.svg";
 
 function Menu() {
   return (
-    <nav className="flex w-full h-16 px-4 space-x-5">
-      <button className="hover:bg-tertiary my-2 space-x-3 flex items-center w-52  rounded-md bg-primary-foreground-dark text-secondary-foreground">
+    <nav className="flex w-full h-14 space-x-5">
+      <button className="hover:bg-tertiary my-2 space-x-3 flex items-center w-64  rounded-md bg-primary-foreground-dark text-secondary-foreground">
         <img src={Library} alt="Library" />
         <span>My Library</span>
       </button>
